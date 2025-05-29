@@ -1,0 +1,244 @@
+body {
+  font-family: Quicksand, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #2f3d31, #3f643e);
+  color: #333;
+}
+
+
+header {
+background-image: url('img/layout-campo-2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+nav ul {
+  background-color: #355a43;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+
+nav ul li {
+  margin: 0 15px;
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+footer {
+  background-color: #323b36;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+button {
+  padding: 10px 15px;
+  background-color: #323b36;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #556B2F;
+}
+
+
+img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3.5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding: 20px;
+}
+
+
+#compartilhar-ideias {
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+#input-ideia {
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #2b7a3d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #1f5b2b;
+}
+
+
+#lista-ideias {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+
+#projeto-morangos img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+
+#sobre {
+  background-color: #aed3b0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+#beneficios {
+  background-color: #aed3b0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+#curiosidades {
+  background-color: #aed3b0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+#galeria {
+  background-color: #aed3b0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+#projeto-morangos {
+  background-image: url(img/morangos.jpg);
+color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+#compartilhar-ideias {
+  background-color: #aed3b0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+#contato {
+  background-color: #aed3b0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section#sobre {
+  transition: transform 0.3s ease;
+}
+
+
+#galeria img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+#galeria img:hover {
+  transform: scale(1.1);
+}
+
+
+#projeto-morangos button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+#projeto-morangos button:hover {
+  background-color: #45a049;
+}
+
+
+#galeria input,
+#galeria button {
+  margin-top: 10px;
+  display: block;
+}
+
+
+#galeria button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+#galeria button:hover {
+  background-color: #3e9142;
+}
