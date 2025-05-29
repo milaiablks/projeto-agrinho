@@ -22,3 +22,23 @@ function adicionarImagem() {
   const input = document.getElementById("inputImagem");
   const galeria = document.getElementById("galeria");
   }
+
+  const arquivo = input.files[0];
+  if (arquivo) {
+    const leitor = new FileReader();
+
+
+    leitor.onload = function(e) {
+      const novaImg = document.createElement("img");
+      novaImg.src = e.target.result;
+      novaImg.alt = "Imagem adicionada";
+      novaImg.width = 200;
+      novaImg.style.margin = "10px";
+
+
+      galeria.appendChild(novaImg);
+    };
+
+
+    leitor.readAsDataURL(arquivo);
+  }
